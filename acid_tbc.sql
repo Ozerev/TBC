@@ -19413,6 +19413,7 @@ INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_invers
 -- Ethereum Prisoner 20520 
 -- Agent Araxes 20551 
 -- Agent Ya-six 20552 
+('2055201','20552','10','0','100','1','1','20','90000','120000','1','-1432','0','0','0','0','0','0','0','0','0','0','Agent Ya-Six - Greet Player'),
 -- Arconus the Insatiable 20554 
 -- Withered Corpse 20561 
 -- Image of Agent Ya-six 20564 
@@ -32363,7 +32364,8 @@ INSERT INTO `creature_ai_texts` (`entry`,`content_default`,`sound`,`type`,`langu
 ('-1412','No more nice ogre! You hurt Mogor!','0','1','0','18069','0'),
 ('-1413','Who dares defile the statue of our beloved?','0','1','0','17715','0'),
 ('-1414','What have you done to my life\'s work?!  DIE!!!','0','0','0','17359','0'),
-('-1431','%s lets out a massive roar, calling for aid!','0','2','0','17664','15');
+('-1431','%s lets out a massive roar, calling for aid!','0','2','0','17664','15'),
+('-1432','Hey! Hey you! $R! Over here!','0','0','0','Agent Ya-Six greeting','1');
 
 -- =======================================================
 -- Current Complete Summons Table for all Accepted Scripts
